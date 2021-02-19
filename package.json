@@ -30,12 +30,14 @@
     "yargs": "^16.1.0"
   },
   "keywords": [
-    "rfc6570",
-    "uri",
-    "template",
-    "parse url params",
-    "get url parts",
-    "put vars to url"
+    "hash",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha512",
+    "ripemd160",
+    "hmac"
   ],
   "homepage": "https://github.com/lagoshny/hashjs-es",
   "issues": {

@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/hashjs-es",
+    "sourceMap": true,
+    "declaration": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "inlineSources": true,
+    "types": []
+  },
+  "include": [
+    "./main/src/**/*.ts"
+  ],
+  "exclude": [
+    "./main/**/*.spec.ts"
+  ]
+}
